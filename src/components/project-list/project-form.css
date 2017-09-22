@@ -1,0 +1,32 @@
+.project-list > header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+
+.project-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-form > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.project-form > div > label {
+  width: 40%;
+  text-align: right;
+}
+
+.project-form > div > input {
+  width: 55%;
+}
+
+.message {
+  color: red;
+}

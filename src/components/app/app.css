@@ -1,0 +1,15 @@
+.app-header {
+  background-color: #512888;
+  height: 100px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.app-header h2 {
+  color: #fff;
+}
+
+.app-body {
+  padding: 20px;
+}

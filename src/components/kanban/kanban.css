@@ -1,0 +1,59 @@
+.kanban-board {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.kanban-column {
+  border: 1px solid gray;
+  min-height: calc(100vh - 100px);
+  border: 1px solid black;
+  width: 30%;
+}
+
+.kanban-column.todo {
+  background-color: red;
+}
+
+.kanban-column.doing {
+  background-color: yellow;
+}
+
+.kanban-column.done {
+  background-color: green;
+}
+
+.kanban-column > header {
+  width: 100%;
+  height: 1.5rem;
+  font-size: 1.1rem;
+  background-color: #555;
+  color: #FFF;
+  text-align: center;
+}
+
+.kanban-column > ul {
+  list-style-type: none;
+  padding: 1rem;
+  margin: 0;
+}
+
+.kanban-card {
+  border: 1px solid #333;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 5px 5px 8px #777;
+}
+
+.kanban-card > header {
+  font-size: 1.1rem;
+  border-bottom: 1px solid #333;
+}
+
+.kanban-card .points {
+  display: table-cell;
+  border-radius: 50%;
+  background-color: #333;
+  color: #FFF;
+  padding: 0.5rem;
+}

@@ -1,0 +1,39 @@
+.github-settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.github-settings > div {
+  width: 45%;
+}
+
+a > span.fa-external-link {
+  margin-left: 0.5rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+ul.sprint-list li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.1rem;
+}
+
+ul.sprint-list li:nth-child(even) {
+  background-color: #EEE;
+}
+
+ul.sprint-list li .fa {
+  margin-right: 2rem;
+}
+
+ul.sprint-list li.sprint-form {
+  background-color: white;
+  margin-top: 1rem;
+}
